@@ -5,9 +5,6 @@ body{
   h1{
     font-size:30px;
   }
-  .monospace {
-    font-family: "Lucida Console", Courier, monospace;
-  }
   .navigation{
     display: flex;
     flex-flow: row wrap;
@@ -51,67 +48,16 @@ body{
     border: 5px solid;
     margin: 20px;
     background-color: #FFA98F;
-    height: 300px;
+    height: 500px;
     display:flex;
     flex-direction:column;
-    justify-content: space-evenly;
+    justify-content:;
     align-items: center;
   }
-  .item{
-    font-size:80px;
-    border: 10px;
-    padding: 20px;
-    flex-direction:flex-end;
-  }
-  
-  .item-2 a{  
-    text-decoration: none;
-    font-size:20px;
-    border: 2px solid; 
-    padding: 10px;
-    flex-direction:flex-end;
-    color:black;
-  }
-  .item-2 a:hover{
-    background:gray;
-    
+  p{
+    text-align:center;
     
   }
-  
-  @media all and (max-width: 600px) {
-    .item-2 {
-       justify-content: space-around;
-    }
-  }
-  
-  
-  .flex-container{
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-  
-  .flex-item{
-    padding: 30px;
-    width: 25%;
-    height: 200px;
-    margin-top: 10px;
-    line-height: 20px;
-    color: white;
-    font-weight: bold;
-    font-size: 10;
-    text-align:wrap;
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-  }
-  .caption {
-      display: block;
-  }
-  
   .rounded-social-buttons{
     background:	#C0C0C0;
     display:flex;
