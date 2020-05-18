@@ -178,22 +178,28 @@ body{
 }
 /** media queries start here**/
 @media(max-width:800px){
-  
+  h1{
+    display:flex;
+    justify-content:center;
+  }
+  .item{
+    display:flex;
+    justify-content:center;
+    font-size:3rem;
+    margin:40px;
 }
 
 @media(max-width:500px){
-  
+  h1{
+    display:flex;
+    justify-content:center;
+  }
+  .item{
+    display:flex;
+    justify-content:center;
+    font-size:3rem;
+    margin:40px;
+  }
 }
 
-/*phone*/
-@media(max-width:360px 640px){
-  
-}
-/*laptop*/
-@media(max-width:1366px 768px){
-  
-}
-/*widescreen*/
-@media(max-width: 1920px 1080px){
-  
-}
+

@@ -222,3 +222,64 @@ body{
     background: #fefefe;
     border-color: #125688;
   }
+  @media(max-width:800px){
+    li{
+      font-size:1.6rem;
+    }
+    .item{
+    font-size:4rem;
+    border: 10px;
+    padding: 20px;
+    flex-direction:center;
+    }
+    .flex-item{
+      display:flex;
+      justify-content:center;
+      margin-left:20px;
+      padding: 30px;
+      width: 55%;
+      height: 200px;
+      margin-top: 10px;
+      line-height: 20px;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      text-align:wrap;
+      vertical-align: top;
+      display: inline-block;
+      text-align: center;
+    }
+    .caption{
+      display:block;
+    
+    }
+  }
+  
+  @media(max-width:500px){
+    .item{
+    font-size:3.5rem;
+    border: 10px;
+    padding: 20px;
+    flex-direction:center;
+    }
+    .flex-item{
+      display:flex;
+      justify-content:center;
+      margin-left:20px;
+      padding: 30px;
+      width: 55%;
+      height: 200px;
+      margin-top: 10px;
+      line-height: 20px;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      text-align:wrap;
+      vertical-align: top;
+      display: inline-block;
+      text-align: center;
+    }
+    .caption{
+      display:block;
+    
+    }
